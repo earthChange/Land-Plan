@@ -1,83 +1,6 @@
-![](https://github.com/functionland/photos/blob/main/assets/images/logo.png)
+A user interface for the [Earth Change Operating System](https://docs.google.com/document/d/1yhxEirl_7Y4L6e8Q6CM9E1-aCDov1hn2IRerCEkrzk0/) stored on [Square](https://github.com/earthChange/Square).
 
-**Google Play:** https://play.google.com/store/apps/details?id=land.fx.fotos
-
-**App Store:** https://apps.apple.com/ca/app/fx-fotos/id1640008383
-
-# Latest 2 Updates
-
-**November-10-2022:** Application was approved by App store.
-
-**October-26-2022:** Application was approved by Google Play.
-
-
-# Discussions
-
-This project is part of a bigger project to disrupt the subscription industry.
-Join the channel and group to participate in the discussion.
-https://t.me/functionland
-
-# BOX Photos development guide
-
-Note: Project is still in alpha phase and not production ready. We aim to
-release beta version by end of August 2021.
-
-[Intro Blog](https://dev.to/fx/google-photos-open-source-alternative-with-react-native-80c)
-
-## Project Description
-
-![](https://github.com/functionland/photos/blob/main_old/assets/images/Photos-integrations.png)
-
-Photos is a react-native(expo)+typescript application to replace Google
-Photos/Apple Photos, and give freedom in hosting your photos on any platform,
-either centralized servers like Amazon or Microsoft, or decentralized solutions
-such as Dfinity or IPFS-based "box". It is optimized for decentralized
-platforms, but is backend agnostic. Your can easily use it with the IPFS-based
-"box" or "Dfinity" to host your files and photos with the same experience you
-had using Google Photos, however, with full privacy.
-
-## Why?
-
-Decentralized Backend(IPFS, Dfinity, Crust, Filecoin) + Photos = Awesome!
-
-Google photos is a great service with great benefits however, there are major
-setbacks with it:
-
-1- It is not free anymore
-
-2- It does not respect our privacy
-
-We developed this project with the smoothness and features of popular gallery
-apps in mind to enable anyone jump on and start using it right away.
-Furthermore, it can connect to "box", a decentralized node based on **IPFS** and
-**Crust**, or **Dfinity** instead of centralized cloud networks. We are also
-working on enabling it to connect to centralized cloud networks, however, with
-web3.0 privacy, do you still want to use web2.0? more information is available
-in the box repo.
-
-## demo
-
-Checkout full demo video at: https://youtu.be/wDxaC1HF5PQ
-
-Or checkout individual features below:
-
-- Pinch/zoom to switch between modes:
-- ![https://youtu.be/ioK0zkew--w](https://github.com/functionland/photos/blob/main_old/assets/demo/BOX_Photos_pinchzoom_to_switch_between_modes.gif)
-- Opening a single image in fullscreen mode:
-- ![https://youtu.be/jPVqxPoNH9M](https://github.com/functionland/photos/blob/main_old/assets/demo/Single%20image%20modal%20scroll%20and%20zoom.gif)
-- Header animation(hide on scroll down and show on scroll up):
-- ![https://youtu.be/qjfiukClHqQ](https://github.com/functionland/photos/blob/main_old/assets/demo/Header%20hide%20on%20scroll%20down%20and%20show%20on%20scroll%20up.gif)
-- Highlights/Story:
-- ![https://youtu.be/yEOnDtT3cX0](https://github.com/functionland/photos/blob/main_old/assets/demo/Highlights.gif)
-- Fast scroll/Thumb scroll feature:
-- ![https://youtu.be/QsDzOGyj9cM](https://github.com/functionland/photos/blob/main_old/assets/demo/Fast%20scroll_thumb%20scroll.gif))
-- Image Edit feature
-- ![https://youtu.be/SDyCdE_aUso](https://github.com/functionland/photos/blob/0c52d3a1d73f3bfe045d939eef324270b1cd7f73/assets/demo/imageEdit.gif)
-- Image select feature
-- ![https://youtu.be/3IXIoBLGY_4](https://github.com/functionland/photos/blob/cc57d970dc50598c7949831a64c5d8647a85ef81/assets/demo/select.gif)
-
-## table of content
-
+## Installation
 - [Install npm, git and expo-cli](#Installing-Pre-requisites)
 - [Clone the project](#clone-the-project)
 - [Install requirements](#install-requirements)
@@ -135,7 +58,7 @@ You can clone the project by running the command below to your terminal:
 for https cloning:
 
 ```bash
-git clone https://github.com/functionland/photos.git
+git clone https://github.com/earthChange/Land-Plan
 ```
 
 ```bash
@@ -337,13 +260,7 @@ RenderPhotos --> PhotosChunk & ThumbScroll & Highlights & FloatingFilters
 
 ## How to contribute?
 
-Just pick any issue from the issues tab or create your own and do a pull
-request! Please use yarn instead of npm if you are a contributor to be aligned
-with other contributors. You can ask questions and get in touch with the rest of
-contributors and community in the
-[Discussion here](https://github.com/functionland/photos/discussions/58) **We
-appreciate all the help you can do, even if it is renaming one variable to a
-better name.**
+[Discussion here](https://github.com/earthChange/Land-Plan/discussions)
 
 ## Road map
 
@@ -362,10 +279,3 @@ better name.**
 - [ ] Library page to show images by folder/Album
 - [ ] AI features to do on-device analysis for face recognition/object
       recognition
-
-## Related Publications and News
-
-- https://filecoin.io/blog/posts/249k-for-17-projects-from-dorahacks-filecoin-grant-hackathon/
-- https://dev.to/fx/google-photos-open-source-alternative-with-react-native-80c
-- https://hackernoon.com/were-building-an-open-source-google-photos-alternative-with-react-native-zw4537pa
-- https://crustnetwork.medium.com/crust-network-and-functionland-partnering-up-on-web3-developer-tools-309e41074fc5
